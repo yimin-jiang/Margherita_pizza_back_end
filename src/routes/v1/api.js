@@ -5,7 +5,6 @@ const validateLogin = require("../../middleware/validateLogin");
 const clientControllers = require("../../controllers/client");
 const validateId = require("../../middleware/validateId");
 const codeControllers = require("../../controllers/proCode");
-const validateId = require("../../middleware/validateId");
 
 router.get("/courses", courseControllers.index);
 router.post("/courses", courseControllers.store);
